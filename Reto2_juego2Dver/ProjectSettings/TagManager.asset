@@ -10,6 +10,8 @@ TagManager:
   - Checkpoint
   - Inicio
   - Bombillo
+  - FInishScene
+  - Menu
   layers:
   - Default
   - TransparentFX

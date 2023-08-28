@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1269627773959100702}
   - component: {fileID: 7036761898430901866}
   - component: {fileID: 5307324082215549320}
-  - component: {fileID: 524895808301596480}
-  - component: {fileID: 5929877340548266146}
+  - component: {fileID: 2934657805873885516}
+  - component: {fileID: 5105745496257789097}
   m_Layer: 0
   m_Name: Chuzos
   m_TagString: Morir
@@ -135,7 +135,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &524895808301596480
+--- !u!114 &2934657805873885516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,7 +150,7 @@ MonoBehaviour:
   entro:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5105745496257789097}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -165,7 +165,7 @@ MonoBehaviour:
   salio:
     m_PersistentCalls:
       m_Calls: []
---- !u!82 &5929877340548266146
+--- !u!82 &5105745496257789097
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,7 +175,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 190249e9daca446149224d9c98c221db, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2876e7fa4419a4a7096b8bb38641daa3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.47
   m_Pitch: 1

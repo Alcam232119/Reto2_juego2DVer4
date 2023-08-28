@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 554169391180094669}
   - component: {fileID: 7935089065146199128}
   - component: {fileID: 307828308538026763}
-  - component: {fileID: 3237315981650623270}
-  - component: {fileID: 1618195943686961451}
+  - component: {fileID: 808807763879718330}
+  - component: {fileID: 3719939219052875606}
   m_Layer: 0
   m_Name: Helice
   m_TagString: Morir
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 3168218762224593505}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.2, y: 1.85, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8263427, y: 2.306097, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -157,7 +157,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!82 &3237315981650623270
+--- !u!82 &808807763879718330
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,9 +167,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3df59136337f44def8d005e65dd667be, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 780229b7350b84e65a71bd0b1df17e4f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.37
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -253,7 +253,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1618195943686961451
+--- !u!114 &3719939219052875606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -268,7 +268,7 @@ MonoBehaviour:
   entro:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3237315981650623270}
+      - m_Target: {fileID: 808807763879718330}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1

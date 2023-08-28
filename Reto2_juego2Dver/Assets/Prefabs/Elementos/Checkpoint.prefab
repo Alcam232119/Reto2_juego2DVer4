@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 5472679882776665289}
   - component: {fileID: 5917941003927296325}
   - component: {fileID: 8864643156514026697}
-  - component: {fileID: 1105062885715405708}
-  - component: {fileID: 3916448501257956531}
+  - component: {fileID: 4804531234012732475}
+  - component: {fileID: 4634634188746532861}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Checkpoint
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54b736a10407446d7953d77ea525d805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &1105062885715405708
+--- !u!82 &4804531234012732475
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,9 +180,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6a80078f6fc6a42dfb959e3447ed72e3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9fe330231cc2d4a01aa086aba00b09fd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.33
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -266,7 +266,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3916448501257956531
+--- !u!114 &4634634188746532861
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -281,7 +281,7 @@ MonoBehaviour:
   entro:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1105062885715405708}
+      - m_Target: {fileID: 4804531234012732475}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1

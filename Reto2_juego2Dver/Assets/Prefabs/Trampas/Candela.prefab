@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 6731316371216451777}
   - component: {fileID: 8448678498245597701}
   - component: {fileID: 7114089755820970757}
-  - component: {fileID: 57349422773684109}
-  - component: {fileID: 8609934541189802482}
+  - component: {fileID: 6018646088596700810}
+  - component: {fileID: 1378523653736161119}
   m_Layer: 0
   m_Name: Candela
   m_TagString: Morir
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 6731316371216451791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2526, y: 0.6842, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -157,7 +157,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!82 &57349422773684109
+--- !u!82 &6018646088596700810
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,9 +167,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 46f921c425e8043f797ad496e6670211, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 190249e9daca446149224d9c98c221db, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.42
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -253,7 +253,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8609934541189802482
+--- !u!114 &1378523653736161119
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -268,7 +268,7 @@ MonoBehaviour:
   entro:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 57349422773684109}
+      - m_Target: {fileID: 6018646088596700810}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
